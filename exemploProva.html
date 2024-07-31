@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Brunes </title>
+    <style>
+        body {
+            background-color: green;
+            font-family: Arial, sans-serif;
+            color: black;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3 {
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+      
+        a:link {
+          color: black;
+        }
+
+       
+        a:visited {
+          color: white;
+        }
+
+    
+        a:hover {
+          color: darkslategrey;
+        }
+
+       
+        a:active {
+          color: blue;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #ddd;
+        }
+
+        /* Submenu */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        li:hover .submenu {
+            display: block;
+        }
+
+        .submenu li {
+            float: none;
+        }
+
+        .submenu li a {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#O_que_é_CSS">O que é CSS?</a></li>
+        <li><a href="#Para_que_Serve_CSS">Para que Serve CSS?</a>
+            <ul class="submenu">
+                <li><a href="#Separar_Conteudo">Separar Conteúdo</a></li>
+                <li><a href="#Criar_Layouts">Criar Layouts</a></li>
+                <li><a href="#Criar_Animacoes">Criar Animações</a></li>
+            </ul>
+        </li>
+        <li><a href="https://www.w3schools.com/css/default.asp">W3Schools CSS Tutorial</a></li>
+        <li><a href="#Benefícios_do_CSS">Benefícios do CSS</a>
+            <ul class="submenu">
+                <li><a href="#Separação_de_Precocupações">Separação de Preocupações</a></li>
+                <li><a href="#Consistência">Consistência</a></li>
+               
+            </ul>
+        </li>
+        
+    </ul>
+
+   <h1>CSS</h1>
+
+   <h2 id="O_que_é_CSS">O que é CSS?</h2>
+
+   <p>CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de um documento HTML (ou XML). Ele define como os elementos HTML devem ser exibidos na tela, no papel ou em outros tipos de mídia.</p>
+   
+   <h2 id="Para_que_Serve_CSS">Para que Serve CSS?</h2>
+
+   <p>CSS é uma linguagem para especificar como documentos são apresentados aos usuários — como eles são estilizados, dispostos etc.</p>
+   
+   <ul>
+       <li><a href="#Separar_Conteudo">Separar Conteúdo</a></li>
+       <li><a href="#Criar_Layouts">Criar Layouts</a></li>
+       <li><a href="#Criar_Animacoes">Criar Animações</a></li>
+   </ul>
+   
+   <h2 id="Benefícios_do_CSS">Benefícios do CSS</h2>
+
+   <table>
+       <tr>
+           <th>Benefício</th>
+           <th>Descrição</th>
+       </tr>
+       <tr>
+           <td id="Separação_de_Precocupações">Separation of Concerns (Separação de Preocupações)</td>
+           <td>O CSS permite separar o conteúdo (HTML) da apresentação visual, o que torna a manutenção e o desenvolvimento mais fáceis.</td>
+       </tr>
+       <tr>
+           <td id="Consistência">Consistência</td>
+           <td>O CSS permite criar estilos consistentes em todo o site, proporcionando uma experiência visual uniforme para os usuários.</td>
+       </tr>
+       <tr>
+           <td id="Flexibilidade">Flexibilidade</td>
+           <td>Com o CSS, é possível criar layouts responsivos e adaptáveis a diferentes dispositivos e tamanhos de tela.</td>
+       </tr>
+       <tr>
+           <td id="Controle_Preciso">Controle Preciso</td>
+           <td>O CSS oferece controle preciso sobre elementos individuais, permitindo ajustar cores, fontes, tamanhos e posicionamento.</td>
+       </tr>
+   </table>
+
+</body>
+</html>
